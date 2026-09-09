@@ -1,12 +1,8 @@
 #!/bin/sh
-
-# Navigate to the root folder of your project on the cloud server
-cd $CI_WORKSPACE
-
-# Create the Secrets.xcconfig file and write the first variable
+set -e
+cd "$CI_WORKSPACE"
 echo "SPOTIFY_CLIENT_ID = $SPOTIFY_CLIENT_ID" > Secrets.xcconfig
-
-# Append the second variable on a new line
 echo "SPOTIFY_CLIENT_SECRET = $SPOTIFY_CLIENT_SECRET" >> Secrets.xcconfig
-
-echo "Successfully generated Secrets.xcconfig"
+echo "=== Verifying ==="
+ls -la Secrets.xcconfig
+cat Secrets.xcconfig
