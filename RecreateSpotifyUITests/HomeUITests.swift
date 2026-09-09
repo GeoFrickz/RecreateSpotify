@@ -1,3 +1,11 @@
+//
+//  HomeUITests.swift
+//  RecreateSpotify
+//
+//  Created by George Maximillian Theodore on 10/09/26.
+//
+
+
 import XCTest
 
 final class HomeUITests: XCTestCase {

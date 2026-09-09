@@ -6,7 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		CB3921453051C74D009A9247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB60203430485EC00016C4A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB60203B30485EC00016C4A6;
+			remoteInfo = RecreateSpotify;
+		};
+		CB3921523051C7BE009A9247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB60203430485EC00016C4A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB60203B30485EC00016C4A6;
+			remoteInfo = RecreateSpotify;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		CB39213F3051C74D009A9247 /* RecreateSpotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecreateSpotifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB39214E3051C7BE009A9247 /* RecreateSpotifyUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecreateSpotifyUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB60203C30485EC00016C4A6 /* RecreateSpotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecreateSpotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB60207E304870C40016C4A6 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -22,6 +41,16 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		CB3921403051C74D009A9247 /* RecreateSpotifyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RecreateSpotifyUITests;
+			sourceTree = "<group>";
+		};
+		CB39214F3051C7BE009A9247 /* RecreateSpotifyUnitTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RecreateSpotifyUnitTests;
+			sourceTree = "<group>";
+		};
 		CB3D1CB13051B5C9005622D8 /* ci_scripts */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ci_scripts;
@@ -38,6 +67,20 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CB39213C3051C74D009A9247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB39214B3051C7BE009A9247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CB60203930485EC00016C4A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -54,6 +97,8 @@
 				CB3D1CB13051B5C9005622D8 /* ci_scripts */,
 				CB60207E304870C40016C4A6 /* Secrets.xcconfig */,
 				CB60203E30485EC00016C4A6 /* RecreateSpotify */,
+				CB3921403051C74D009A9247 /* RecreateSpotifyUITests */,
+				CB39214F3051C7BE009A9247 /* RecreateSpotifyUnitTests */,
 				CB60203D30485EC00016C4A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				CB60203C30485EC00016C4A6 /* RecreateSpotify.app */,
+				CB39213F3051C74D009A9247 /* RecreateSpotifyUITests.xctest */,
+				CB39214E3051C7BE009A9247 /* RecreateSpotifyUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +116,52 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CB39213E3051C74D009A9247 /* RecreateSpotifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3921473051C74D009A9247 /* Build configuration list for PBXNativeTarget "RecreateSpotifyUITests" */;
+			buildPhases = (
+				CB39213B3051C74D009A9247 /* Sources */,
+				CB39213C3051C74D009A9247 /* Frameworks */,
+				CB39213D3051C74D009A9247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB3921463051C74D009A9247 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CB3921403051C74D009A9247 /* RecreateSpotifyUITests */,
+			);
+			name = RecreateSpotifyUITests;
+			packageProductDependencies = (
+			);
+			productName = RecreateSpotifyUITests;
+			productReference = CB39213F3051C74D009A9247 /* RecreateSpotifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CB39214D3051C7BE009A9247 /* RecreateSpotifyUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3921543051C7BE009A9247 /* Build configuration list for PBXNativeTarget "RecreateSpotifyUnitTests" */;
+			buildPhases = (
+				CB39214A3051C7BE009A9247 /* Sources */,
+				CB39214B3051C7BE009A9247 /* Frameworks */,
+				CB39214C3051C7BE009A9247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB3921533051C7BE009A9247 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CB39214F3051C7BE009A9247 /* RecreateSpotifyUnitTests */,
+			);
+			name = RecreateSpotifyUnitTests;
+			packageProductDependencies = (
+			);
+			productName = RecreateSpotifyUnitTests;
+			productReference = CB39214E3051C7BE009A9247 /* RecreateSpotifyUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		CB60203B30485EC00016C4A6 /* RecreateSpotify */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB60204F30485EC00016C4A6 /* Build configuration list for PBXNativeTarget "RecreateSpotify" */;
@@ -102,6 +195,14 @@
 				LastSwiftUpdateCheck = 2660;
 				LastUpgradeCheck = 2660;
 				TargetAttributes = {
+					CB39213E3051C74D009A9247 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = CB60203B30485EC00016C4A6;
+					};
+					CB39214D3051C7BE009A9247 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = CB60203B30485EC00016C4A6;
+					};
 					CB60203B30485EC00016C4A6 = {
 						CreatedOnToolsVersion = 26.6;
 					};
@@ -122,11 +223,27 @@
 			projectRoot = "";
 			targets = (
 				CB60203B30485EC00016C4A6 /* RecreateSpotify */,
+				CB39213E3051C74D009A9247 /* RecreateSpotifyUITests */,
+				CB39214D3051C7BE009A9247 /* RecreateSpotifyUnitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CB39213D3051C74D009A9247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB39214C3051C7BE009A9247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CB60203A30485EC00016C4A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -137,6 +254,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CB39213B3051C74D009A9247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB39214A3051C7BE009A9247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CB60203830485EC00016C4A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,7 +277,102 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		CB3921463051C74D009A9247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB60203B30485EC00016C4A6 /* RecreateSpotify */;
+			targetProxy = CB3921453051C74D009A9247 /* PBXContainerItemProxy */;
+		};
+		CB3921533051C7BE009A9247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB60203B30485EC00016C4A6 /* RecreateSpotify */;
+			targetProxy = CB3921523051C7BE009A9247 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		CB3921483051C74D009A9247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HKS2XN3KMY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = george.RecreateSpotifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecreateSpotify;
+			};
+			name = Debug;
+		};
+		CB3921493051C74D009A9247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HKS2XN3KMY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = george.RecreateSpotifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecreateSpotify;
+			};
+			name = Release;
+		};
+		CB3921553051C7BE009A9247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HKS2XN3KMY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = george.RecreateSpotifyUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecreateSpotify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RecreateSpotify";
+			};
+			name = Debug;
+		};
+		CB3921563051C7BE009A9247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HKS2XN3KMY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = george.RecreateSpotifyUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecreateSpotify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RecreateSpotify";
+			};
+			name = Release;
+		};
 		CB60205030485EC00016C4A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB60207E304870C40016C4A6 /* Secrets.xcconfig */;
@@ -347,6 +573,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CB3921473051C74D009A9247 /* Build configuration list for PBXNativeTarget "RecreateSpotifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3921483051C74D009A9247 /* Debug */,
+				CB3921493051C74D009A9247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB3921543051C7BE009A9247 /* Build configuration list for PBXNativeTarget "RecreateSpotifyUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3921553051C7BE009A9247 /* Debug */,
+				CB3921563051C7BE009A9247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CB60203730485EC00016C4A6 /* Build configuration list for PBXProject "RecreateSpotify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
