@@ -26,6 +26,11 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		CB3D1CB13051B5C9005622D8 /* ci_scripts */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ci_scripts;
+			sourceTree = "<group>";
+		};
 		CB60203E30485EC00016C4A6 /* RecreateSpotify */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -50,6 +55,7 @@
 		CB60203330485EC00016C4A6 = {
 			isa = PBXGroup;
 			children = (
+				CB3D1CB13051B5C9005622D8 /* ci_scripts */,
 				CB60207E304870C40016C4A6 /* Secrets.xcconfig */,
 				CB60203E30485EC00016C4A6 /* RecreateSpotify */,
 				CB60203D30485EC00016C4A6 /* Products */,
@@ -80,6 +86,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				CB3D1CB13051B5C9005622D8 /* ci_scripts */,
 				CB60203E30485EC00016C4A6 /* RecreateSpotify */,
 			);
 			name = RecreateSpotify;
