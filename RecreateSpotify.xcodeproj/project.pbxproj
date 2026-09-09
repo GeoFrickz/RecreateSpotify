@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		CB60207F304870C40016C4A6 /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CB60207E304870C40016C4A6 /* Secrets.xcconfig */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		CB60203C30485EC00016C4A6 /* RecreateSpotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecreateSpotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB60207E304870C40016C4A6 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
@@ -135,7 +131,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB60207F304870C40016C4A6 /* Secrets.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
