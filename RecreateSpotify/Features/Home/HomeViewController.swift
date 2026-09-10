@@ -96,6 +96,7 @@ class HomeViewController: UIViewController {
     
     private func didTapAlbumCard(albumId: String) {
         let albumVC = AlbumViewController(albumId: albumId)
+        albumVC.hidesBottomBarWhenPushed = true
         navigationController?.pushViewController(albumVC, animated: true)
     }
 }
