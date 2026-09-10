@@ -15,7 +15,11 @@ class HorizontalSectionView: UIView {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         
-        label.font = .preferredFont(forTextStyle: .title2)
+        let descriptor = UIFontDescriptor.preferredFontDescriptor(withTextStyle: .title2)
+        
+        if let boldDescriptor = descriptor.withSymbolicTraits(.traitBold) {
+            label.font = UIFont(descriptor: boldDescriptor, size: descriptor.pointSize)
+        }
         
         return label
     }()

@@ -16,7 +16,12 @@ class HomeViewController: UIViewController {
         label.translatesAutoresizingMaskIntoConstraints = false
         
         label.text = "Home"
-        label.font = UIFont.preferredFont(forTextStyle: .largeTitle)
+        
+        let descriptor = UIFontDescriptor.preferredFontDescriptor(withTextStyle: .largeTitle)
+        
+        if let boldDescriptor = descriptor.withSymbolicTraits(.traitBold) {
+            label.font = UIFont(descriptor: boldDescriptor, size: descriptor.pointSize)
+        }
         
         return label
     }()
